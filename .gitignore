@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+
+# Archivos de datos pesados y bases de datos locales
+*.csv
+*.db
+*.sqlite
+
+# Temporales de Python
+__pycache__/

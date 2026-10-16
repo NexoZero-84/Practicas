@@ -1,5 +1,6 @@
 import pandas as pd
-df = pd.read_csv(r'C:\Users\leyva\Documents\Practicas CD\Pandas\age_at_mar.csv', index_col=0)
+
+df = pd.read_csv(r'Pandas\age_at_mar.csv', index_col=0)
 print(df.head(15))
 # En estas encuestas podemos hacer un condicion simple como:
 # edad menores 25, edad mayor o igual a 18, edad igual a 30
